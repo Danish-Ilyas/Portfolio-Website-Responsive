@@ -1,0 +1,40 @@
+.main{
+    margin: 0%;
+    padding: 0%;
+}
+.banner{
+    background-image: url('Newfolder/one.gif');
+    padding: 20%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headerimg h2{
+    border-top:1px solid;
+    border-bottom:1px solid;
+    width: fit-content; 
+}
+.header{
+    background-color: rgb(70, 68, 68);
+}
+.resume::after{
+    position: absolute;
+    content: "";
+    bottom: -40px;
+    left: 49%;
+    border: 20px solid #f8f9fa;
+    border-color:#f8f9fa white white;
+}
+.carousel-indicators{
+    bottom: -37px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.folio-item img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
